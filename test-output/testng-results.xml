@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="4" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-07T16:02:44 IST" name="Suite" finished-at="2023-12-07T16:04:11 IST" duration-ms="87014">
+    <groups>
+    </groups>
+    <test started-at="2023-12-07T16:02:44 IST" name="Test" finished-at="2023-12-07T16:04:11 IST" duration-ms="87014">
+      <class name="com.empire.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.HomePageTest@7776ab]" started-at="2023-12-07T16:02:50 IST" name="setup" finished-at="2023-12-07T16:02:53 IST" duration-ms="2285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyEhomePageTitleTest()[pri:0, instance:com.empire.qa.testcases.HomePageTest@7776ab]" started-at="2023-12-07T16:02:53 IST" name="VerifyEhomePageTitleTest" finished-at="2023-12-07T16:02:53 IST" duration-ms="8" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Empire Home Admin Panelgova] but found [Empire Home Admin Panel]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Empire Home Admin Panelgova] but found [Empire Home Admin Panel]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.empire.qa.testcases.HomePageTest.VerifyEhomePageTitleTest(HomePageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEhomePageTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.HomePageTest@7776ab]" started-at="2023-12-07T16:02:53 IST" name="teardown" finished-at="2023-12-07T16:02:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.HomePageTest@7776ab]" started-at="2023-12-07T16:02:53 IST" name="setup" finished-at="2023-12-07T16:02:55 IST" duration-ms="2584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyHomepageDashboardTest()[pri:0, instance:com.empire.qa.testcases.HomePageTest@7776ab]" started-at="2023-12-07T16:02:55 IST" name="VerifyHomepageDashboardTest" finished-at="2023-12-07T16:03:02 IST" duration-ms="6389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomepageDashboardTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.HomePageTest@7776ab]" started-at="2023-12-07T16:03:02 IST" name="teardown" finished-at="2023-12-07T16:03:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.empire.qa.testcases.HomePageTest -->
+      <class name="com.empire.qa.testcases.LoginpageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@22356acd]" started-at="2023-12-07T16:02:44 IST" name="setup" finished-at="2023-12-07T16:02:46 IST" duration-ms="2362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyEhomeLoginImageTest()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@22356acd]" started-at="2023-12-07T16:02:46 IST" name="VerifyEhomeLoginImageTest" finished-at="2023-12-07T16:02:46 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEhomeLoginImageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@22356acd]" started-at="2023-12-07T16:02:46 IST" name="teardown" finished-at="2023-12-07T16:02:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@22356acd]" started-at="2023-12-07T16:02:46 IST" name="setup" finished-at="2023-12-07T16:02:48 IST" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyEhomeLoginPageTest()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@22356acd]" started-at="2023-12-07T16:02:48 IST" name="VerifyEhomeLoginPageTest" finished-at="2023-12-07T16:02:49 IST" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEhomeLoginPageTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@22356acd]" started-at="2023-12-07T16:02:49 IST" name="setup" finished-at="2023-12-07T16:02:50 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@22356acd]" started-at="2023-12-07T16:02:49 IST" name="teardown" finished-at="2023-12-07T16:02:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="VerifyLoginpageTitleTest()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@22356acd]" started-at="2023-12-07T16:02:50 IST" name="VerifyLoginpageTitleTest" finished-at="2023-12-07T16:02:50 IST" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Empire Home Admin Panelgopi] but found [Empire Home Admin Panel]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Empire Home Admin Panelgopi] but found [Empire Home Admin Panel]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.empire.qa.testcases.LoginpageTest.VerifyLoginpageTitleTest(LoginpageTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginpageTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@22356acd]" started-at="2023-12-07T16:02:50 IST" name="teardown" finished-at="2023-12-07T16:02:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.empire.qa.testcases.LoginpageTest -->
+      <class name="com.empire.qa.testcases.AddInventoryTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.AddInventoryTest@79179359]" started-at="2023-12-07T16:03:02 IST" name="setup" finished-at="2023-12-07T16:03:13 IST" duration-ms="10314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyAddInventoryPageTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.empire.qa.testcases.AddInventoryTest@79179359]" started-at="2023-12-07T16:03:13 IST" name="VerifyAddInventoryPageTest" data-provider="ExcelData" finished-at="2023-12-07T16:03:34 IST" duration-ms="20727" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EMP001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Good Bed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Happy Sleep]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4.7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4.5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Red]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[14000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: bedroom
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: bedroom
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.empire.qa.utils.UtilsTest.DropdownMethod(UtilsTest.java:38)
+at com.empire.qa.pages.AddInventoryPage.VerifyAddInventoryPage(AddInventoryPage.java:70)
+at com.empire.qa.testcases.AddInventoryTest.VerifyAddInventoryPageTest(AddInventoryTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddInventoryPageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.AddInventoryTest@79179359]" started-at="2023-12-07T16:03:34 IST" name="teardown" finished-at="2023-12-07T16:03:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.AddInventoryTest@79179359]" started-at="2023-12-07T16:03:34 IST" name="setup" finished-at="2023-12-07T16:03:42 IST" duration-ms="8772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyAddInventoryPageTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.empire.qa.testcases.AddInventoryTest@79179359]" started-at="2023-12-07T16:03:42 IST" name="VerifyAddInventoryPageTest" data-provider="ExcelData" finished-at="2023-12-07T16:04:02 IST" duration-ms="20099" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EMP005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Good comfortable]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sleepy bed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3.6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Pink]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8574]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: bedroom
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: bedroom
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at com.empire.qa.utils.UtilsTest.DropdownMethod(UtilsTest.java:38)
+at com.empire.qa.pages.AddInventoryPage.VerifyAddInventoryPage(AddInventoryPage.java:70)
+at com.empire.qa.testcases.AddInventoryTest.VerifyAddInventoryPageTest(AddInventoryTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddInventoryPageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.AddInventoryTest@79179359]" started-at="2023-12-07T16:04:02 IST" name="teardown" finished-at="2023-12-07T16:04:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.AddInventoryTest@79179359]" started-at="2023-12-07T16:04:02 IST" name="setup" finished-at="2023-12-07T16:04:11 IST" duration-ms="8556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyAddInventorypageTitleTest()[pri:0, instance:com.empire.qa.testcases.AddInventoryTest@79179359]" started-at="2023-12-07T16:04:11 IST" name="VerifyAddInventorypageTitleTest" finished-at="2023-12-07T16:04:11 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddInventorypageTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.AddInventoryTest@79179359]" started-at="2023-12-07T16:04:11 IST" name="teardown" finished-at="2023-12-07T16:04:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.empire.qa.testcases.AddInventoryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
